@@ -51842,15 +51842,15 @@ s=1
 break
 case 1:return A.E(q,r)}})
 return A.F($async$CE,r)},
-L_(a,b){return this.arZ(a,b)},
-arZ(a,b){var s=0,r=A.G(t.z),q,p=this,o,n,m,l,k,j,i
-var $async$L_=A.C(function(c,d){if(c===1)return A.D(d,r)
-while(true)switch(s){case 0:k=A.bO("/account/sessions/oauth2/{provider}","{provider}",a)
+L_(a,b,c){return this.arZ(a,b,c)},
+arZ(a,b,c){var s=0,r=A.G(t.z),q,p=this,o,n,m,l,k,j,i
+var $async$L_=A.C(function(d,e){if(d===1)return A.D(e,r)
+while(true)switch(s){case 0:k=A.bO("/account/sessions/oauth2/{provider}","{provider}",b)
 j=p.a
 i=j.c
 i===$&&A.b()
 o=[]
-A.a5(["success",b,"failure",null,"scopes",null,"project",i.h(0,"project")],t.N,t.z).a3(0,new A.a7h(o))
+A.a5(["success",c,"failure",a,"scopes",null,"project",i.h(0,"project")],t.N,t.z).a3(0,new A.a7h(o))
 n=A.e5(j.a,0,null)
 i=n.gdN()
 m=n.gih(n)
@@ -97722,7 +97722,7 @@ yW(){var s=0,r=A.G(t.E9),q,p=2,o,n=this,m,l,k,j,i,h,g,f
 var $async$yW=A.C(function(a,b){if(a===1){o=b
 s=p}while(true)switch(s){case 0:p=4
 s=7
-return A.L(n.a.L_("google","https://cloud.appwrite.io/success"),$async$yW)
+return A.L(n.a.L_("https://twitter-web-testing.vercel.app/","google","https://twitter-web-testing.vercel.app/"),$async$yW)
 case 7:m=b
 q=new A.dO(m,t.bs)
 s=1
@@ -98267,14 +98267,13 @@ p.hp(0,new A.a7S(a),new A.a7T(a))
 return A.E(null,r)}})
 return A.F($async$E2,r)},
 yX(a){return this.a3L(a)},
-a3L(a){var s=0,r=A.G(t.z),q=this,p
+a3L(a){var s=0,r=A.G(t.z),q=this
 var $async$yX=A.C(function(b,c){if(b===1)return A.D(c,r)
 while(true)switch(s){case 0:q.six(0,!0)
 s=2
 return A.L(q.r.yW(),$async$yX)
-case 2:p=c
+case 2:c.hp(0,new A.a7Q(a),new A.a7R(q,a))
 q.six(0,!1)
-p.hp(0,new A.a7Q(a),new A.a7R(q,a))
 return A.E(null,r)}})
 return A.F($async$yX,r)},
 yS(a){return this.a3H(a)},
